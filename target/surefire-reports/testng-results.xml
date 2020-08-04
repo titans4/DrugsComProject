@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="49280" started-at="2020-08-04T02:46:54Z" finished-at="2020-08-04T02:47:44Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:bdd.runners.RunnerClass@13a57a3b]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="49280" started-at="2020-08-04T02:46:54Z" finished-at="2020-08-04T02:47:44Z">
+      <class name="bdd.runners.RunnerClass">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:bdd.runners.RunnerClass@13a57a3b]" name="setUpClass" is-config="true" duration-ms="279" started-at="2020-08-03T22:46:54Z" finished-at="2020-08-03T22:46:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:bdd.runners.RunnerClass@13a57a3b]" name="feature" duration-ms="23500" started-at="2020-08-03T22:46:55Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-08-03T22:47:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Users ability to search side effect of drug]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:bdd.runners.RunnerClass@13a57a3b]" name="feature" duration-ms="24971" started-at="2020-08-03T22:47:18Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-08-03T22:47:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User ability to find Medication List for Hair Loss]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="writeExtentReport()[pri:0, instance:bdd.runners.RunnerClass@13a57a3b]" name="writeExtentReport" is-config="true" duration-ms="14" started-at="2020-08-03T22:47:43Z" finished-at="2020-08-03T22:47:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeExtentReport -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:bdd.runners.RunnerClass@13a57a3b]" name="tearDownClass" is-config="true" duration-ms="398" started-at="2020-08-03T22:47:43Z" finished-at="2020-08-03T22:47:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- bdd.runners.RunnerClass -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

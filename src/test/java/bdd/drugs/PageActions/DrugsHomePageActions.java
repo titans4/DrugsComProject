@@ -3,6 +3,7 @@ package bdd.drugs.PageActions;
 
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.support.PageFactory;
 
 import bdd.drugs.PageElements.DrugsHomePageLocators;
@@ -48,6 +49,16 @@ public class DrugsHomePageActions {
 	public void browseAlphbetH() throws InterruptedException {
 		DrugsHomePageLocatorsObj.tabAlphabetLetterH.click();
 		
+	}
+	
+	//Scroll down the page and click on Pricing & Coupon Guide link
+	public void pricingCoupon() throws InterruptedException {
+		
+		JavascriptExecutor js = (JavascriptExecutor)(SetupDrivers.driver);
+		js.executeScript("arguments[0].scrollIntoView();", DrugsHomePageLocatorsObj.lnkPriceCoupon);
+		Thread.sleep(4000);
+		
+		DrugsHomePageLocatorsObj.lnkPriceCoupon.click();
 	}
 		
 	

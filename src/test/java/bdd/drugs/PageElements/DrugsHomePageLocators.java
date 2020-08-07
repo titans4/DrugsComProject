@@ -21,6 +21,8 @@ public class DrugsHomePageLocators {
 	@FindBy(linkText="H")
     public WebElement tabAlphabetLetterH;
 	
-	
+	//Pricing and coupon guide link 
+	@FindBy(xpath="//a[contains(text(),'Pricing & Coupon Guide')]")
+    public WebElement lnkPriceCoupon;
 	
 }

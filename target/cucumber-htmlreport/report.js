@@ -1,4 +1,162 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("DrugsSideEffect.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("DrugPricingCoupon.feature");
+formatter.feature({
+  "comments": [
+    {
+      "line": 1,
+      "value": "#Feature 8"
+    }
+  ],
+  "line": 3,
+  "name": "Users ability to find price of a Medication",
+  "description": "",
+  "id": "users-ability-to-find-price-of-a-medication",
+  "keyword": "Feature",
+  "tags": [
+    {
+      "line": 2,
+      "name": "@drugs"
+    },
+    {
+      "line": 2,
+      "name": "@regression"
+    }
+  ]
+});
+formatter.scenarioOutline({
+  "line": 5,
+  "name": "User should able to find side effect of drug",
+  "description": "",
+  "id": "users-ability-to-find-price-of-a-medication;user-should-able-to-find-side-effect-of-drug",
+  "type": "scenario_outline",
+  "keyword": "Scenario Outline"
+});
+formatter.step({
+  "line": 6,
+  "name": "browse to drugs homepage",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 7,
+  "name": "user scroll down, click on Pricing \u0026 Coupon Guide",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 8,
+  "name": "enter \"\u003cMedName\u003e\" in the Search Box, click on Search",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 9,
+  "name": "user should be able to see Price List of the Medication successfully",
+  "keyword": "Then "
+});
+formatter.examples({
+  "line": 12,
+  "name": "",
+  "description": "",
+  "id": "users-ability-to-find-price-of-a-medication;user-should-able-to-find-side-effect-of-drug;",
+  "rows": [
+    {
+      "cells": [
+        "MedName"
+      ],
+      "line": 13,
+      "id": "users-ability-to-find-price-of-a-medication;user-should-able-to-find-side-effect-of-drug;;1"
+    },
+    {
+      "cells": [
+        "minoxidil"
+      ],
+      "line": 14,
+      "id": "users-ability-to-find-price-of-a-medication;user-should-able-to-find-side-effect-of-drug;;2"
+    }
+  ],
+  "keyword": "Examples"
+});
+formatter.before({
+  "duration": 5962738648,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 14,
+  "name": "User should able to find side effect of drug",
+  "description": "",
+  "id": "users-ability-to-find-price-of-a-medication;user-should-able-to-find-side-effect-of-drug;;2",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 2,
+      "name": "@regression"
+    },
+    {
+      "line": 2,
+      "name": "@drugs"
+    }
+  ]
+});
+formatter.step({
+  "line": 6,
+  "name": "browse to drugs homepage",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 7,
+  "name": "user scroll down, click on Pricing \u0026 Coupon Guide",
+  "keyword": "When "
+});
+formatter.step({
+  "line": 8,
+  "name": "enter \"minoxidil\" in the Search Box, click on Search",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 9,
+  "name": "user should be able to see Price List of the Medication successfully",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "DrugsSideEffectsSteps.browse_to_drugs_homepage()"
+});
+formatter.result({
+  "duration": 4038726149,
+  "status": "passed"
+});
+formatter.match({
+  "location": "DrugPricingCouponSteps.user_scroll_down_click_on_Pricing_Coupon_Guide()"
+});
+formatter.result({
+  "duration": 4958170254,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "minoxidil",
+      "offset": 7
+    }
+  ],
+  "location": "DrugPricingCouponSteps.enter_in_the_Search_Box_click_on_Search(String)"
+});
+formatter.result({
+  "duration": 1952256954,
+  "status": "passed"
+});
+formatter.match({
+  "location": "DrugPricingCouponSteps.user_should_be_able_to_see_Price_List_of_the_Medication_successfully()"
+});
+formatter.result({
+  "duration": 5057261893,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 787264851,
+  "status": "passed"
+});
+formatter.uri("DrugsSideEffect.feature");
 formatter.feature({
   "comments": [
     {
@@ -74,7 +232,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 3325821196,
+  "duration": 2546515230,
   "status": "passed"
 });
 formatter.scenario({
@@ -122,7 +280,7 @@ formatter.match({
   "location": "DrugsSideEffectsSteps.browse_to_drugs_homepage()"
 });
 formatter.result({
-  "duration": 3241743258,
+  "duration": 4254738898,
   "status": "passed"
 });
 formatter.match({
@@ -135,25 +293,25 @@ formatter.match({
   "location": "DrugsSideEffectsSteps.user_enter_clicks_on_Search_icon(String)"
 });
 formatter.result({
-  "duration": 4387755045,
+  "duration": 5723450091,
   "status": "passed"
 });
 formatter.match({
   "location": "DrugsSideEffectsSteps.user_scroll_down_and_click_on_Side_Effects_link()"
 });
 formatter.result({
-  "duration": 3412415413,
+  "duration": 4082318316,
   "status": "passed"
 });
 formatter.match({
   "location": "DrugsSideEffectsSteps.user_should_be_able_to_see_Side_Effects_page_and_overdose_symptom_successfully()"
 });
 formatter.result({
-  "duration": 7763549604,
+  "duration": 5595817772,
   "status": "passed"
 });
 formatter.after({
-  "duration": 1055246631,
+  "duration": 2077468626,
   "status": "passed"
 });
 formatter.uri("MedicationHairLoss.feature");
@@ -181,7 +339,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 2692437916,
+  "duration": 2557817023,
   "status": "passed"
 });
 formatter.scenario({
@@ -226,46 +384,46 @@ formatter.match({
   "location": "DrugsSideEffectsSteps.browse_to_drugs_homepage()"
 });
 formatter.result({
-  "duration": 2931189070,
+  "duration": 3000487488,
   "status": "passed"
 });
 formatter.match({
   "location": "HairLossMedicationListSteps.user_clicks_on_Browse_Conditions_link()"
 });
 formatter.result({
-  "duration": 3611290038,
+  "duration": 3643427867,
   "status": "passed"
 });
 formatter.match({
   "location": "HairLossMedicationListSteps.click_on_alphabet_H_link_at_homepage()"
 });
 formatter.result({
-  "duration": 1128339060,
+  "duration": 870688296,
   "status": "passed"
 });
 formatter.match({
   "location": "HairLossMedicationListSteps.click_on_Hair_Loss_link_in_the_Condition_Page()"
 });
 formatter.result({
-  "duration": 4761069246,
+  "duration": 4903252502,
   "status": "passed"
 });
 formatter.match({
   "location": "HairLossMedicationListSteps.click_on_Medication_List_tab_on_Medications_Treatment_Options_page()"
 });
 formatter.result({
-  "duration": 3883845810,
+  "duration": 3974704731,
   "status": "passed"
 });
 formatter.match({
   "location": "HairLossMedicationListSteps.user_should_see_successful_message_of_Hair_Loss_Medications_Treatment_options_and_list_of_Medications()"
 });
 formatter.result({
-  "duration": 5195844269,
+  "duration": 7323678581,
   "status": "passed"
 });
 formatter.after({
-  "duration": 746202491,
+  "duration": 1016058651,
   "status": "passed"
 });
 });

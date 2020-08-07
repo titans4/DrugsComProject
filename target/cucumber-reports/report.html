@@ -52,7 +52,7 @@
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<li>
                 <a href='#!'>
-                    <span class='label suite-start-time blue darken-3'>Aug 3, 2020 10:46:55 PM</span>
+                    <span class='label suite-start-time blue darken-3'>Aug 6, 2020 09:00:59 PM</span>
 				</a>
 			</li>
 			<li>
@@ -139,7 +139,7 @@
 					<canvas id='parent-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>2</span> feature(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>3</span> feature(s) passed</span>
 				</div>
 				<div class='block text-small'>
 					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> feature(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
@@ -154,7 +154,7 @@
 					<canvas id='child-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>2</span> scenario(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>3</span> scenario(s) passed</span>
 				</div>
 				<div class='block text-small'>
 					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> scenario(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
@@ -169,7 +169,7 @@
 					<canvas id='grandchild-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>10</span> step(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>14</span> step(s) passed</span>
 				</div>
 				<div class='block text-small'>
 					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
@@ -188,13 +188,13 @@
 				
 				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='1'>
 					<div class='test-heading'>
-						<span class='test-name'>Users ability to search side effect of drug</span>
-						<span class='test-time'>Aug 3, 2020 10:46:55 PM</span>
+						<span class='test-name'>Users ability to find price of a Medication</span>
+						<span class='test-time'>Aug 6, 2020 09:00:59 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='scenariooutline node' test-id='2' status='pass'>
-	<span class='duration right label'>0h 0m 22s+201ms</span>
+	<span class='duration right label'>0h 0m 22s+896ms</span>
 	<div class='desc'>
 		<b>ScenarioOutline</b>
 		<span class="desc-text">User should able to find side effect of drug</span>
@@ -216,15 +216,15 @@
 							<div class='pre'>passed</div>
 					</li>
 					<li test-id='5' class='node when pass' status='pass'><b>When</b>
-						<span class="bdd-step-name">When user enter "hydroxychloroquine", clicks on Search icon</span>
+						<span class="bdd-step-name">When user scroll down, click on Pricing & Coupon Guide</span>
 							<div class='pre'>passed</div>
 					</li>
 					<li test-id='6' class='node and pass' status='pass'><b>And</b>
-						<span class="bdd-step-name">And user scroll down and click on Side Effects link</span>
+						<span class="bdd-step-name">And enter "minoxidil" in the Search Box, click on Search</span>
 							<div class='pre'>passed</div>
 					</li>
 					<li test-id='7' class='node then pass' status='pass'><b>Then</b>
-						<span class="bdd-step-name">Then user should be able to see Side Effects page, and overdose symptom  successfully</span>
+						<span class="bdd-step-name">Then user should be able to see Price List of the Medication successfully</span>
 							<div class='pre'>passed</div>
 					</li>
 				</ul>
@@ -237,19 +237,68 @@
 				
 				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='8'>
 					<div class='test-heading'>
-						<span class='test-name'>User ability to find Medication List for Hair Loss</span>
-						<span class='test-time'>Aug 3, 2020 10:47:18 PM</span>
+						<span class='test-name'>Users ability to search side effect of drug</span>
+						<span class='test-time'>Aug 6, 2020 09:01:23 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
-<div class='scenario node' test-id='9' status='pass'>
-	<span class='duration right label'>0h 0m 24s+222ms</span>
+<div class='scenariooutline node' test-id='9' status='pass'>
+	<span class='duration right label'>0h 0m 22s+222ms</span>
+	<div class='desc'>
+		<b>ScenarioOutline</b>
+		<span class="desc-text">User should able to find side effect of drug</span>
+	</div>
+	<ul class='steps'>
+		<li test-id='10' class='node scenario pass' status='pass'>
+			<div class='category-list'>
+				<span class='category label white-text'>@regression</span>
+				<span class='category label white-text'>@drugs</span>
+			</div>
+			
+			<b>Scenario</b>
+			
+			<span class="bdd-step-name">User should able to find side effect of drug</span>
+			
+				<ul class='steps'>
+					<li test-id='11' class='node given pass' status='pass'><b>Given</b>
+						<span class="bdd-step-name">Given browse to drugs homepage</span>
+							<div class='pre'>passed</div>
+					</li>
+					<li test-id='12' class='node when pass' status='pass'><b>When</b>
+						<span class="bdd-step-name">When user enter "hydroxychloroquine", clicks on Search icon</span>
+							<div class='pre'>passed</div>
+					</li>
+					<li test-id='13' class='node and pass' status='pass'><b>And</b>
+						<span class="bdd-step-name">And user scroll down and click on Side Effects link</span>
+							<div class='pre'>passed</div>
+					</li>
+					<li test-id='14' class='node then pass' status='pass'><b>Then</b>
+						<span class="bdd-step-name">Then user should be able to see Side Effects page, and overdose symptom  successfully</span>
+							<div class='pre'>passed</div>
+					</li>
+				</ul>
+		</li>
+	</ul>
+</div>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='15'>
+					<div class='test-heading'>
+						<span class='test-name'>User ability to find Medication List for Hair Loss</span>
+						<span class='test-time'>Aug 6, 2020 09:01:47 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='scenario node' test-id='16' status='pass'>
+	<span class='duration right label'>0h 0m 26s+285ms</span>
 	<div class='desc'>
 		<b>Scenario</b>
 		<span class="desc-text">User should be able to find list of medications for Hair Loss</span>
 	</div>
 	<ul class='steps'>
-		<li test-id='10' class='node given pass' status='pass'>
+		<li test-id='17' class='node given pass' status='pass'>
 			
 			<b>Given</b>
 			
@@ -257,7 +306,7 @@
 				<div class='pre'>passed</div>
 			
 		</li>
-		<li test-id='11' class='node when pass' status='pass'>
+		<li test-id='18' class='node when pass' status='pass'>
 			
 			<b>When</b>
 			
@@ -265,7 +314,7 @@
 				<div class='pre'>passed</div>
 			
 		</li>
-		<li test-id='12' class='node and pass' status='pass'>
+		<li test-id='19' class='node and pass' status='pass'>
 			
 			<b>And</b>
 			
@@ -273,7 +322,7 @@
 				<div class='pre'>passed</div>
 			
 		</li>
-		<li test-id='13' class='node and pass' status='pass'>
+		<li test-id='20' class='node and pass' status='pass'>
 			
 			<b>And</b>
 			
@@ -281,7 +330,7 @@
 				<div class='pre'>passed</div>
 			
 		</li>
-		<li test-id='14' class='node and pass' status='pass'>
+		<li test-id='21' class='node and pass' status='pass'>
 			
 			<b>And</b>
 			
@@ -289,7 +338,7 @@
 				<div class='pre'>passed</div>
 			
 		</li>
-		<li test-id='15' class='node then pass' status='pass'>
+		<li test-id='22' class='node then pass' status='pass'>
 			
 			<b>Then</b>
 			
@@ -355,12 +404,12 @@
 					<div class='category-heading'>
 						<span class='category-name'>@drugs</span>
 						<span class='category-status right'>
-							<span class='label pass'>3</span>
+							<span class='label pass'>5</span>
 						</span>
 					</div>
 					<div class='category-content hide'>
 						<div class='category-status-counts'>
-							<span class='label green accent-4 white-text'>Passed: 3</span>
+							<span class='label green accent-4 white-text'>Passed: 5</span>
 							
 							
 						</div>
@@ -376,18 +425,28 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Aug 3, 2020 10:46:55 PM</td>
-										<td class='linked' test-id='1'>Users ability to search side effect of drug</td>
+										<td>Aug 6, 2020 09:00:59 PM</td>
+										<td class='linked' test-id='1'>Users ability to find price of a Medication</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Aug 3, 2020 10:46:55 PM</td>
-										<td class='linked' test-id='3'>Users ability to search side effect of drug.User should able to find side effect of drug.User should able to find side effect of drug</td>
+										<td>Aug 6, 2020 09:00:59 PM</td>
+										<td class='linked' test-id='3'>Users ability to find price of a Medication.User should able to find side effect of drug.User should able to find side effect of drug</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Aug 3, 2020 10:47:18 PM</td>
-										<td class='linked' test-id='8'>User ability to find Medication List for Hair Loss</td>
+										<td>Aug 6, 2020 09:01:23 PM</td>
+										<td class='linked' test-id='8'>Users ability to search side effect of drug</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Aug 6, 2020 09:01:23 PM</td>
+										<td class='linked' test-id='10'>Users ability to search side effect of drug.User should able to find side effect of drug.User should able to find side effect of drug</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Aug 6, 2020 09:01:47 PM</td>
+										<td class='linked' test-id='15'>User ability to find Medication List for Hair Loss</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 								</tbody>
@@ -399,12 +458,12 @@
 					<div class='category-heading'>
 						<span class='category-name'>@regression</span>
 						<span class='category-status right'>
-							<span class='label pass'>3</span>
+							<span class='label pass'>5</span>
 						</span>
 					</div>
 					<div class='category-content hide'>
 						<div class='category-status-counts'>
-							<span class='label green accent-4 white-text'>Passed: 3</span>
+							<span class='label green accent-4 white-text'>Passed: 5</span>
 							
 							
 						</div>
@@ -420,18 +479,28 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Aug 3, 2020 10:46:55 PM</td>
-										<td class='linked' test-id='1'>Users ability to search side effect of drug</td>
+										<td>Aug 6, 2020 09:00:59 PM</td>
+										<td class='linked' test-id='1'>Users ability to find price of a Medication</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Aug 3, 2020 10:46:55 PM</td>
-										<td class='linked' test-id='3'>Users ability to search side effect of drug.User should able to find side effect of drug.User should able to find side effect of drug</td>
+										<td>Aug 6, 2020 09:00:59 PM</td>
+										<td class='linked' test-id='3'>Users ability to find price of a Medication.User should able to find side effect of drug.User should able to find side effect of drug</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Aug 3, 2020 10:47:18 PM</td>
-										<td class='linked' test-id='8'>User ability to find Medication List for Hair Loss</td>
+										<td>Aug 6, 2020 09:01:23 PM</td>
+										<td class='linked' test-id='8'>Users ability to search side effect of drug</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Aug 6, 2020 09:01:23 PM</td>
+										<td class='linked' test-id='10'>Users ability to search side effect of drug.User should able to find side effect of drug.User should able to find side effect of drug</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Aug 6, 2020 09:01:47 PM</td>
+										<td class='linked' test-id='15'>User ability to find Medication List for Hair Loss</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 								</tbody>
@@ -460,37 +529,37 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Features
-					<div class='panel-lead'>2</div>
+					<div class='panel-lead'>3</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Scenarios
-					<div class='panel-lead'>2</div>
+					<div class='panel-lead'>3</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Steps
-					<div class='panel-lead'>10</div>
+					<div class='panel-lead'>14</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Aug 3, 2020 10:46:55 PM</div>
+					<div class='panel-lead'>Aug 6, 2020 09:00:59 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Aug 3, 2020 10:47:43 PM</div>
+			 		<div class='panel-lead'>Aug 6, 2020 09:02:15 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>0h 0m 48s+366ms</div>
+					<div class='panel-lead'>0h 1m 15s+588ms</div>
 				</div>
 			</div>
 			<div class='col s6'>
@@ -507,7 +576,7 @@
 						</tr>
 						<tr>
 							<td>@drugs</td>
-							<td>3</td>
+							<td>5</td>
 							<td>0</td>
 							<td>0</td>
 							<td>
@@ -516,7 +585,7 @@
 						</tr>
 						<tr>
 							<td>@regression</td>
-							<td>3</td>
+							<td>5</td>
 							<td>0</td>
 							<td>0</td>
 							<td>
@@ -536,7 +605,7 @@
 
 		<script>
 			var statusGroup = {
-				passParent: 2,
+				passParent: 3,
 				failParent: 0,
 				fatalParent: 0,
 				errorParent: 0,
@@ -544,7 +613,7 @@
 				skipParent: 0,
 				exceptionsParent: 0,
 				
-				passChild: 2,
+				passChild: 3,
 				failChild: 0,
 				fatalChild: 0,
 				errorChild: 0,
@@ -553,7 +622,7 @@
 				infoChild: 0,
 				exceptionsChild: 0,
 				
-				passGrandChild: 10,
+				passGrandChild: 14,
 				failGrandChild: 0,
 				fatalGrandChild: 0,
 				errorGrandChild: 0,

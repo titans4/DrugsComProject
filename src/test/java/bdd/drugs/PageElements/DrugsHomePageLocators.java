@@ -4,6 +4,11 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
 public class DrugsHomePageLocators {
+	
+	// Register Link
+	@FindBy(xpath = "//a[@class='ddc-btn ddc-btn-empty ddc-btn-sm ddc-btn-register']")
+	public WebElement lnkRegister;
+
 
 	//Search Box 
 	@FindBy(xpath="//input[@id='livesearch-main']")

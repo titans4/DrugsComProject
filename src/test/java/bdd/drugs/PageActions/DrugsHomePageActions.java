@@ -27,6 +27,12 @@ public class DrugsHomePageActions {
 		
 	}
 	
+	//Click on Register link
+	public void navigateRegisterPage() {
+		DrugsHomePageLocatorsObj.lnkRegister.click();
+	}
+
+	
 	//Search Box Function for searching
 	public void searchBox(String drugName) {
 		DrugsHomePageLocatorsObj.txtSearchBox.sendKeys(drugName);

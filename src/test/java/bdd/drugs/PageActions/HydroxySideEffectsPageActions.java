@@ -32,14 +32,14 @@ public class HydroxySideEffectsPageActions {
 		
 		//Taking Screenshot of the confirmation page
 		File srcFile=((TakesScreenshot)(SetupDrivers.driver)).getScreenshotAs(OutputType.FILE);
-		FileUtils.copyFile(srcFile, new File("C:\\TTSoftware\\DrugsScreenhots\\sideEffectPageConfirmation.jpg"));
+		FileUtils.copyFile(srcFile, new File("C:\\workspace\\DrugComProject\\config\\Screenshots\\sideEffectPageConfirmation.png"));
 		
 		JavascriptExecutor js = (JavascriptExecutor)(SetupDrivers.driver);
 		js.executeScript("arguments[0].scrollIntoView();", HydroxySideEffectsPageLocatorsObj.txtOverdose );
 		Thread.sleep(4000);
 		
 		srcFile=((TakesScreenshot)(SetupDrivers.driver)).getScreenshotAs(OutputType.FILE);
-		FileUtils.copyFile(srcFile, new File("C:\\TTSoftware\\DrugsScreenhots\\overDose.jpg"));
+		FileUtils.copyFile(srcFile, new File("C:\\workspace\\DrugComProject\\config\\Screenshots\\overDose.png"));
 	}
 	
 	

@@ -33,7 +33,7 @@ public class MinoxidilTopPricesPageActions {
 		
 		//Taking Screenshot of Minoxidil Topical Foam Price List
 		File srcFile=((TakesScreenshot)(SetupDrivers.driver)).getScreenshotAs(OutputType.FILE);
-		FileUtils.copyFile(srcFile, new File("C:\\TTSoftware\\DrugsScreenhots\\TopicalFoamPriceList.jpg"));
+		FileUtils.copyFile(srcFile, new File("C:\\workspace\\DrugComProject\\config\\Screenshots\\TopicalFoamPriceList.png"));
 		
 	}
 }

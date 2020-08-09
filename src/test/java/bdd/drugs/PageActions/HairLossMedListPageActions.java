@@ -31,7 +31,7 @@ public class HairLossMedListPageActions {
 		
 		//Taking Screenshot of Medications for Alopecia Page title
 		File srcFile=((TakesScreenshot)(SetupDrivers.driver)).getScreenshotAs(OutputType.FILE);
-		FileUtils.copyFile(srcFile, new File("C:\\TTSoftware\\DrugsScreenhots\\MedicationAlopeciaPageTitle.jpg"));
+		FileUtils.copyFile(srcFile, new File("C:\\workspace\\DrugComProject\\config\\Screenshots\\MedicationAlopeciaPageTitle.png"));
 		
 		//Scroll down until the element is found
 		JavascriptExecutor js = (JavascriptExecutor)(SetupDrivers.driver);
@@ -40,7 +40,7 @@ public class HairLossMedListPageActions {
 		
 		//Taking Screenshot of List of Drugs Used to Treat Alopecia section
 		srcFile=((TakesScreenshot)(SetupDrivers.driver)).getScreenshotAs(OutputType.FILE);
-		FileUtils.copyFile(srcFile, new File("C:\\TTSoftware\\DrugsScreenhots\\DrugsListAlopecia.jpg"));
+		FileUtils.copyFile(srcFile, new File("C:\\workspace\\DrugComProject\\config\\Screenshots\\DrugsListAlopecia.png"));
 	}
 	
 }

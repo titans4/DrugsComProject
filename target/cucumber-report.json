@@ -12,7 +12,7 @@
         "before": [
           {
             "result": {
-              "duration": 5962738648,
+              "duration": 3293499071,
               "status": "passed"
             },
             "match": {
@@ -27,7 +27,7 @@
         "after": [
           {
             "result": {
-              "duration": 787264851,
+              "duration": 708980366,
               "status": "passed"
             },
             "match": {
@@ -40,7 +40,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4038726149,
+              "duration": 3099579592,
               "status": "passed"
             },
             "line": 6,
@@ -52,7 +52,7 @@
           },
           {
             "result": {
-              "duration": 4958170254,
+              "duration": 5113553073,
               "status": "passed"
             },
             "line": 7,
@@ -64,7 +64,7 @@
           },
           {
             "result": {
-              "duration": 1952256954,
+              "duration": 1545979907,
               "status": "passed"
             },
             "line": 8,
@@ -85,7 +85,7 @@
           },
           {
             "result": {
-              "duration": 5057261893,
+              "duration": 5174638651,
               "status": "passed"
             },
             "line": 9,
@@ -128,6 +128,165 @@
     "comments": [
       {
         "line": 1,
+        "value": "#Feature 1"
+      }
+    ],
+    "line": 3,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2571099890,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.beforeActions(Scenario)"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "User should able to create account using Register form",
+        "description": "",
+        "id": "drugs-registration-as-a-user;user-should-able-to-create-account-using-register-form;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 723397486,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.afterAction()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2444257689,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "browse to drugs homepage",
+            "match": {
+              "location": "DrugsSideEffectsSteps.browse_to_drugs_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1763833531,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click on Register link",
+            "match": {
+              "location": "DrugsRegisterSteps.click_on_Register_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1164686849,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Fillup the register form with \"panda13456@gmail.com\", \"panda2345\", \"panda7895\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "panda13456@gmail.com",
+                  "offset": 31
+                },
+                {
+                  "val": "panda2345",
+                  "offset": 55
+                },
+                {
+                  "val": "panda7895",
+                  "offset": 68
+                }
+              ],
+              "location": "DrugsRegisterSteps.fillup_the_register_form_with(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 116794767,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "select on Terms and Privacy checkbox",
+            "match": {
+              "location": "DrugsRegisterSteps.select_on_Terms_and_Privacy_checkbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 167811919,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User click on register button",
+            "match": {
+              "location": "DrugsRegisterSteps.user_click_on_register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 157736496,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User should see registration confirmation details successfully",
+            "match": {
+              "location": "DrugsRegisterSteps.user_should_see_registration_confirmation_details_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@regression"
+          },
+          {
+            "line": 2,
+            "name": "@drugs"
+          }
+        ]
+      }
+    ],
+    "name": "Drugs Registration As a user",
+    "description": "Description: Drugs Registration as a user with valid information",
+    "id": "drugs-registration-as-a-user",
+    "keyword": "Feature",
+    "uri": "DrugsRegister.feature",
+    "tags": [
+      {
+        "line": 2,
+        "name": "@drugs"
+      },
+      {
+        "line": 2,
+        "name": "@regression"
+      }
+    ]
+  },
+  {
+    "comments": [
+      {
+        "line": 1,
         "value": "#Feature 3"
       }
     ],
@@ -137,7 +296,7 @@
         "before": [
           {
             "result": {
-              "duration": 2546515230,
+              "duration": 2578004527,
               "status": "passed"
             },
             "match": {
@@ -152,7 +311,7 @@
         "after": [
           {
             "result": {
-              "duration": 2077468626,
+              "duration": 845839211,
               "status": "passed"
             },
             "match": {
@@ -165,7 +324,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4254738898,
+              "duration": 2679385734,
               "status": "passed"
             },
             "line": 6,
@@ -177,7 +336,7 @@
           },
           {
             "result": {
-              "duration": 5723450091,
+              "duration": 4617940953,
               "status": "passed"
             },
             "line": 7,
@@ -198,7 +357,7 @@
           },
           {
             "result": {
-              "duration": 4082318316,
+              "duration": 3823016731,
               "status": "passed"
             },
             "line": 8,
@@ -210,7 +369,7 @@
           },
           {
             "result": {
-              "duration": 5595817772,
+              "duration": 13700375345,
               "status": "passed"
             },
             "line": 9,
@@ -253,6 +412,176 @@
     "comments": [
       {
         "line": 1,
+        "value": "#Feature 7:"
+      }
+    ],
+    "line": 3,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2609802429,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.beforeActions(Scenario)"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "User can successfully check interactions between few drugs",
+        "description": "",
+        "id": "user-can-check-drug-interactions;user-can-successfully-check-interactions-between-few-drugs;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 865648115,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.afterAction()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2890493798,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User browses to drugs.com homepage",
+            "match": {
+              "location": "InteractionCheckerSteps.user_browses_to_drugs_com_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 980927697,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on Interactions Checker",
+            "match": {
+              "location": "InteractionCheckerSteps.user_clicks_on_Interactions_Checker()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 403736276,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters a drug name \"dexamethasone\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "dexamethasone",
+                  "offset": 25
+                }
+              ],
+              "location": "InteractionCheckerSteps.user_enters_a_drug_name(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1948576062,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Clicks on Add button",
+            "match": {
+              "location": "InteractionCheckerSteps.clicks_on_Add_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1720424028,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Enters another name \"montelukast\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "montelukast",
+                  "offset": 21
+                }
+              ],
+              "location": "InteractionCheckerSteps.enters_another_name(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1505631563,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User clicks on Check for Interactions button",
+            "match": {
+              "location": "InteractionCheckerSteps.user_clicks_on_Check_for_Interactions_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3233412732,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User should be able to see the Drug Interaction Report",
+            "match": {
+              "location": "InteractionCheckerSteps.user_should_be_able_to_see_the_Drug_Interaction_Report()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@regression"
+          },
+          {
+            "line": 2,
+            "name": "@drugs"
+          }
+        ]
+      }
+    ],
+    "name": "User can check drug interactions",
+    "description": "",
+    "id": "user-can-check-drug-interactions",
+    "keyword": "Feature",
+    "uri": "InteractionChecker.feature",
+    "tags": [
+      {
+        "line": 2,
+        "name": "@drugs"
+      },
+      {
+        "line": 2,
+        "name": "@regression"
+      }
+    ]
+  },
+  {
+    "comments": [
+      {
+        "line": 1,
         "value": "#Feature 4"
       }
     ],
@@ -262,7 +591,7 @@
         "before": [
           {
             "result": {
-              "duration": 2557817023,
+              "duration": 2576632090,
               "status": "passed"
             },
             "match": {
@@ -277,7 +606,7 @@
         "after": [
           {
             "result": {
-              "duration": 1016058651,
+              "duration": 826912922,
               "status": "passed"
             },
             "match": {
@@ -290,7 +619,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3000487488,
+              "duration": 2741313807,
               "status": "passed"
             },
             "line": 7,
@@ -302,7 +631,7 @@
           },
           {
             "result": {
-              "duration": 3643427867,
+              "duration": 3637763385,
               "status": "passed"
             },
             "line": 8,
@@ -314,7 +643,7 @@
           },
           {
             "result": {
-              "duration": 870688296,
+              "duration": 1456421625,
               "status": "passed"
             },
             "line": 9,
@@ -326,7 +655,7 @@
           },
           {
             "result": {
-              "duration": 4903252502,
+              "duration": 5253594367,
               "status": "passed"
             },
             "line": 10,
@@ -338,7 +667,7 @@
           },
           {
             "result": {
-              "duration": 3974704731,
+              "duration": 4871992487,
               "status": "passed"
             },
             "line": 11,
@@ -350,7 +679,7 @@
           },
           {
             "result": {
-              "duration": 7323678581,
+              "duration": 5161130269,
               "status": "passed"
             },
             "line": 12,
@@ -368,6 +697,283 @@
     "id": "user-ability-to-find-medication-list-for-hair-loss",
     "keyword": "Feature",
     "uri": "MedicationHairLoss.feature",
+    "tags": [
+      {
+        "line": 2,
+        "name": "@drugs"
+      },
+      {
+        "line": 2,
+        "name": "@regression"
+      }
+    ]
+  },
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Feature 8:"
+      }
+    ],
+    "line": 3,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2585563661,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.beforeActions(Scenario)"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Title of your scenario outline",
+        "description": "",
+        "id": "find-latest-fda-approved-drug-from-archive;title-of-your-scenario-outline",
+        "after": [
+          {
+            "result": {
+              "duration": 803106130,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.afterAction()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2880450096,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User browses to Drugs.com homepage",
+            "match": {
+              "location": "PillidentifierSteps.user_browses_to_Drugs_com_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2242836457,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on New Drugs tab",
+            "match": {
+              "location": "NewDrugSteps.user_clicks_on_New_Drugs_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 37378150,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user scrolls down to archive",
+            "match": {
+              "location": "NewDrugSteps.user_scrolls_down_to_archive()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3070040007,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Clicks on latest year and month",
+            "match": {
+              "location": "NewDrugSteps.clicks_on_latest_year_and_month()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4694622025,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User can find the recent new drug that has been approved by FDA",
+            "match": {
+              "location": "NewDrugSteps.user_can_find_the_recent_new_drug_that_has_been_approved_by_FDA()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Find latest FDA approved drug from archive",
+    "description": "",
+    "id": "find-latest-fda-approved-drug-from-archive",
+    "keyword": "Feature",
+    "uri": "NewDrug.feature",
+    "tags": [
+      {
+        "line": 2,
+        "name": "@drugs"
+      },
+      {
+        "line": 2,
+        "name": "@regression"
+      }
+    ]
+  },
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Feature 6:"
+      }
+    ],
+    "line": 3,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2586586224,
+              "status": "passed"
+            },
+            "match": {
+              "location": "BeforeActions.beforeActions(Scenario)"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "User can successfully identify medication using Pill Identifier",
+        "description": "",
+        "id": "identify-medication-using-pill-identifier;user-can-successfully-identify-medication-using-pill-identifier;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1210966248,
+              "status": "passed"
+            },
+            "match": {
+              "location": "AfterActions.afterAction()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3151825033,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User browses to Drugs.com homepage",
+            "match": {
+              "location": "PillidentifierSteps.user_browses_to_Drugs_com_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 770012297,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on Pill Identifier",
+            "match": {
+              "location": "PillidentifierSteps.user_clicks_on_Pill_Identifier()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 732079946,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User Clicks on Accept to accept terms",
+            "match": {
+              "location": "PillidentifierSteps.user_Clicks_on_Accept_to_accept_terms()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2497682438,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User Enters \"I 13\" , \"White\", \"Capsule-shape\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "I 13",
+                  "offset": 13
+                },
+                {
+                  "val": "White",
+                  "offset": 22
+                },
+                {
+                  "val": "Capsule-shape",
+                  "offset": 31
+                }
+              ],
+              "location": "PillidentifierSteps.user_Enters(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1941665360,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks on Search",
+            "match": {
+              "location": "PillidentifierSteps.user_clicks_on_Search()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6559025989,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User should be able to see the result that match the criteria",
+            "match": {
+              "location": "PillidentifierSteps.user_should_be_able_to_see_the_result_that_match_the_criteria()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@regression"
+          },
+          {
+            "line": 2,
+            "name": "@drugs"
+          }
+        ]
+      }
+    ],
+    "name": "Identify medication using Pill Identifier",
+    "description": "",
+    "id": "identify-medication-using-pill-identifier",
+    "keyword": "Feature",
+    "uri": "Pillidentifier.feature",
     "tags": [
       {
         "line": 2,

@@ -43,5 +43,9 @@ public class HairLossMedListPageActions {
 		FileUtils.copyFile(srcFile, new File("C:\\workspace\\DrugComProject\\config\\Screenshots\\DrugsListAlopecia.png"));
 	}
 	
+	public void testBranch() {
+		//Please remove later
+	}
+	
 }
 

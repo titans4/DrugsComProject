@@ -80,5 +80,8 @@ public class DrugsHomePageActions {
 
 	}
 
+	public void SignIn () {
+		DrugsHomePageLocatorsObj.btnSignIn.click();
+	}
 
 }

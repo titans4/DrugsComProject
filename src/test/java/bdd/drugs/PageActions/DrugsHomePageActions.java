@@ -79,6 +79,8 @@ public class DrugsHomePageActions {
 		DrugsHomePageLocatorsObj.lnkNewDrugs.click();
 
 	}
-
+	public void medicalNews (){
+		DrugsHomePageLocatorsObj.lnkMedicalNews.click();
+	}
 
 }

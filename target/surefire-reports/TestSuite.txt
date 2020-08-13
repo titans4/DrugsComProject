@@ -1,4 +1,30 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 137.16 s - in TestSuite
+Tests run: 7, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 130.199 s <<< FAILURE! - in TestSuite
+feature(bdd.runners.RunnerClass)  Time elapsed: 28.842 s  <<< FAILURE!
+cucumber.runtime.CucumberException: java.lang.NullPointerException
+Caused by: java.lang.NullPointerException
+
+feature(bdd.runners.RunnerClass)  Time elapsed: 33.125 s  <<< FAILURE!
+cucumber.runtime.CucumberException: java.lang.NullPointerException
+Caused by: java.lang.NullPointerException
+
+feature(bdd.runners.RunnerClass)  Time elapsed: 14.828 s  <<< FAILURE!
+cucumber.runtime.CucumberException: 
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="/hair-loss.html" onclick="DDC_recordConditionHit(event);">...</a> is not clickable at point (134, 11). Other element would receive the click: <div id="google_ads_iframe_/7146/alpha_0__container__" style="border: 0pt none;">...</div>
+  (Session info: chrome=84.0.4147.125)
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-U8A0AGU', ip: '192.168.102.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.125, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\12404\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52680}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 53bdd45263348b9544a08e5b6184238e
+Caused by: org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a href="/hair-loss.html" onclick="DDC_recordConditionHit(event);">...</a> is not clickable at point (134, 11). Other element would receive the click: <div id="google_ads_iframe_/7146/alpha_0__container__" style="border: 0pt none;">...</div>
+  (Session info: chrome=84.0.4147.125)
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DESKTOP-U8A0AGU', ip: '192.168.102.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.125, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\12404\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52680}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 53bdd45263348b9544a08e5b6184238e
+

@@ -29,13 +29,16 @@ public class DrugsRegisterPageActions {
 	}
 
 	//checkbox selection
-	public void checkBoxPrivacy() {
+	public void checkBoxPrivacy() throws Exception {
+		
+		Thread.sleep(1000);
 		DrugsRegisterPageLocatorsObj.chkBox.click();	
 	}
 	
 	
 	//clicking on submit button
-	public void SubmitRegForm() {
+	public void SubmitRegForm() throws Exception {
+		Thread.sleep(1000);
 		DrugsRegisterPageLocatorsObj.lnkSubmit.click();
 	}
 

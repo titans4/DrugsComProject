@@ -17,7 +17,8 @@ public class DrugsRegisterConfirmPageActions {
 		
 	}
 	
-	public void VerifyConfirmPage() {
+	public void VerifyConfirmPage() throws Exception {
+		Thread.sleep(1000);
 		String confirmMsg = DrugsRegisterConfirmPageLocatorsObj.txtYourAccount.getText();
 		Assert.assertEquals(confirmMsg, "Create Your Account");
 	

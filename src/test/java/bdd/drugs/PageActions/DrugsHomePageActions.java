@@ -79,9 +79,14 @@ public class DrugsHomePageActions {
 		DrugsHomePageLocatorsObj.lnkNewDrugs.click();
 
 	}
+<<<<<<< HEAD
 
 	public void SignIn () {
 		DrugsHomePageLocatorsObj.btnSignIn.click();
+=======
+	public void medicalNews (){
+		DrugsHomePageLocatorsObj.lnkMedicalNews.click();
+>>>>>>> 45ac386b0c817b21c5192e1d883f58fe614ca154
 	}
 
 }

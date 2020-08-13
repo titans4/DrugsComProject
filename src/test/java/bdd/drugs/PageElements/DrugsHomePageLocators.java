@@ -42,6 +42,12 @@ public class DrugsHomePageLocators {
 	@FindBy(xpath="//li[@class='ddc-header__nav-item hidden-desktop-down']//a[contains(text(),'New Drugs')]")
 	public WebElement lnkNewDrugs;
 
+<<<<<<< HEAD
 	@FindBy(xpath="//a[@class='ddc-btn ddc-btn-secondary ddc-btn-sm']")
 	public WebElement btnSignIn;
+=======
+    //Medical News 
+	@FindBy(xpath="//div[@class='ddc-grid-col-6']//a[contains(text(),'Medical News')]")
+	public WebElement lnkMedicalNews;
+>>>>>>> 45ac386b0c817b21c5192e1d883f58fe614ca154
 }

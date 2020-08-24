@@ -23,7 +23,8 @@ public class NewDrugsPageActions {
 	public void scrollArchive (){
 
 		JavascriptExecutor scroll = (JavascriptExecutor) SetupDrivers.driver;
-		WebElement Element = SetupDrivers.driver.findElement(By.xpath("//h2[contains(text(),'FDA Drug Approvals Archive')]"));
+		//scroll.executeScript("arguments[0].scrollIntoView();", NewDrugsPageLocatorsObj.lnkTitle);
+		WebElement Element = SetupDrivers.driver.findElement(By.xpath("//h2[contains(text(),'FDA Drug Approvals Archive')]"));		
 		scroll.executeScript("arguments[0].scrollIntoView();", Element);
 	}
 

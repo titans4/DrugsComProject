@@ -11,5 +11,9 @@ public class NewDrugsPageLocators {
 @FindBy(xpath="//b[contains(text(),'2020')]")
     public WebElement lnkAugust20;
 
+@FindBy(xpath="//h2[contains(text(),'FDA Drug Approvals Archive')]")
+public String lnkTitle;
+
+
 
 }

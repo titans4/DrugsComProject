@@ -16,10 +16,11 @@ public class PillidentifierPageActions {
 		PageFactory.initElements(SetupDrivers.driver, PillidentifierPageLocatorsObj);
 	}
 	
-	public void clickAccept (){
+	public void clickAccept () throws Exception{
 		
 		JavascriptExecutor js = (JavascriptExecutor) SetupDrivers.driver;
 		js.executeScript("window.scrollBy(0,300)");
+		Thread.sleep(2000);
 		PillidentifierPageLocatorsObj.lnkAccept.click();	
 		
 	}

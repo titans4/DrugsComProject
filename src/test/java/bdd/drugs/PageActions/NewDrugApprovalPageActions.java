@@ -35,7 +35,7 @@ public class NewDrugApprovalPageActions {
 		JavascriptExecutor scroll = (JavascriptExecutor) SetupDrivers.driver;
 		scroll.executeScript("window.scrollBy(0,300)");
 
-		Thread.sleep(1000);
+		Thread.sleep(3000);
 
 		File screenshot = ((TakesScreenshot)SetupDrivers.driver).getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(screenshot, new File("C:\\workspace\\DrugComProject\\config\\Screenshots\\newdrugshot.png"));

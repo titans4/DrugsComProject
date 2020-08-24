@@ -25,27 +25,27 @@ public class HairLossMedListPageActions {
 	
 	public void hairLossMedicationLists() throws InterruptedException, IOException{
 		
+		Thread.sleep(1000);
+		
 		String expectedTitle= HairLossMedListPageLocatorsObj.txtMedAlopeciaTitle.getText();
 		String actualTitle= "Medications for Alopecia";
 		Assert.assertEquals(actualTitle,expectedTitle);
 		
 		//Taking Screenshot of Medications for Alopecia Page title
-		File srcFile=((TakesScreenshot)(SetupDrivers.driver)).getScreenshotAs(OutputType.FILE);
-		FileUtils.copyFile(srcFile, new File("C:\\workspace\\DrugComProject\\config\\Screenshots\\MedicationAlopeciaPageTitle.png"));
+		//File srcFile=((TakesScreenshot)(SetupDrivers.driver)).getScreenshotAs(OutputType.FILE);
+		//FileUtils.copyFile(srcFile, new File("C:\\workspace\\DrugComProject\\config\\Screenshots\\MedicationAlopeciaPageTitle.png"));
 		
 		//Scroll down until the element is found
 		JavascriptExecutor js = (JavascriptExecutor)(SetupDrivers.driver);
 		js.executeScript("arguments[0].scrollIntoView();", HairLossMedListPageLocatorsObj.txtMedicationList );
-		Thread.sleep(4000);
+		Thread.sleep(2000);
 		
 		//Taking Screenshot of List of Drugs Used to Treat Alopecia section
-		srcFile=((TakesScreenshot)(SetupDrivers.driver)).getScreenshotAs(OutputType.FILE);
+		File srcFile=((TakesScreenshot)(SetupDrivers.driver)).getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(srcFile, new File("C:\\workspace\\DrugComProject\\config\\Screenshots\\DrugsListAlopecia.png"));
 	}
 	
-	public void testBranch() {
-		//Please remove later
-	}
+	
 	
 }
 

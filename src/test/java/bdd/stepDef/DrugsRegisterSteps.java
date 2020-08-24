@@ -19,9 +19,9 @@ public class DrugsRegisterSteps {
 		DrugsHomePageActionsObj.navigateRegisterPage();
 	}
 
-	@When("^Fillup the register form with \"([^\"]*)\", \"([^\"]*)\", \"([^\"]*)\"$")
-	public void fillup_the_register_form_with(String email, String userName, String password) throws Throwable {
-		DrugsRegisterPageActionsObj.fillUserInfo( email, userName, password);
+	@When("^Fillup the register form with \"([^\"]*)\", \"([^\"]*)\", \"([^\"]*)\", \"([^\"]*)\"$")
+	public void fillup_the_register_form_with(String email, String username, String password, String age) throws Throwable {
+		DrugsRegisterPageActionsObj.fillUserInfo(email, username, password, age);
 	}
 
 	@When("^select on Terms and Privacy checkbox$")

@@ -2,7 +2,9 @@
 
 package bdd.drugs.PageActions;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.Select;
 
 import bdd.drugs.PageElements.DrugsRegisterPageLocators;
 import bdd.utilities.SetupDrivers;
@@ -18,13 +20,19 @@ public class DrugsRegisterPageActions {
 	}
 
 	//filling user details
-	public void fillUserInfo( String email, String userName, String password) {
+	public void fillUserInfo( String email, String userName, String password, String age) {
 		DrugsRegisterPageLocatorsObj.txtEmail.clear();
 		DrugsRegisterPageLocatorsObj.txtEmail.sendKeys(email);
 		DrugsRegisterPageLocatorsObj.txtUserName.clear();
 		DrugsRegisterPageLocatorsObj.txtUserName.sendKeys(userName);
 		DrugsRegisterPageLocatorsObj.txtPassword.clear();
 		DrugsRegisterPageLocatorsObj.txtPassword.sendKeys(password);
+		
+		JavascriptExecutor scroll = (JavascriptExecutor) SetupDrivers.driver;
+		scroll.executeScript("window.scrollBy(0,200)");
+		
+		Select drop = new Select(DrugsRegisterPageLocatorsObj.txtAge);
+		drop.selectByVisibleText(age);
 		
 	}
 
@@ -35,7 +43,8 @@ public class DrugsRegisterPageActions {
 	
 	
 	//clicking on submit button
-	public void SubmitRegForm() {
+	public void SubmitRegForm() throws Exception {
+		Thread.sleep(1000);
 		DrugsRegisterPageLocatorsObj.lnkSubmit.click();
 	}
 

@@ -16,4 +16,8 @@ public class PillinfoPageLocators {
 
 	@FindBy(xpath="//input[@class='ddc-btn btn-block']")
 	public WebElement lnkSearch;
+	
+	
+	@FindBy(xpath="//div[@id='ls-wrap']//a[1]")
+	public WebElement enterImprint;
 }

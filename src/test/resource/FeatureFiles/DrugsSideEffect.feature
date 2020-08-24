@@ -10,6 +10,6 @@ Scenario Outline: User should able to find side effect of drug
 	
 
 Examples: 
-		|drugName	        	| 
+		|    drugName	      |  
 		|hydroxychloroquine |
 	

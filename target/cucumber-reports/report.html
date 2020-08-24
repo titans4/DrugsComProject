@@ -39,7 +39,6 @@
 		<ul id='slide-out' class='side-nav fixed hide-on-med-and-down'>
 			<li class='waves-effect active'><a href='#!' view='test-view' onclick="configureView(0);chartsView('test');"><i class='material-icons'>dashboard</i></a></li>
 						<li class='waves-effect'><a href='#!' view='category-view' onclick="configureView(1)"><i class='material-icons'>label_outline</i></a></li>
-			<li class='waves-effect'><a href='#!' view='exception-view' onclick="configureView(2)"><i class='material-icons'>bug_report</i></a></li>
 			<li class='waves-effect'><a href='#!' onclick="configureView(-1);chartsView('dashboard');" view='dashboard-view'><i class='material-icons'>track_changes</i></i></a></li>
 		</ul>
 
@@ -53,7 +52,7 @@
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<li>
                 <a href='#!'>
-                    <span class='label suite-start-time blue darken-3'>Aug 13, 2020 12:53:43 AM</span>
+                    <span class='label suite-start-time blue darken-3'>Aug 23, 2020 01:24:20 PM</span>
 				</a>
 			</li>
 			<li>
@@ -79,8 +78,6 @@
 				</a>
 				<ul id='tests-toggle' class='dropdown-content'>
 											<li status='pass'><a href='#!'>Pass <i class='material-icons green-text'>check_circle</i></a></li>
-						<li status='fail'><a href='#!'>Fail <i class='material-icons red-text'>cancel</i></a></li>
-						<li status='skip'><a href='#!'>Skip <i class='material-icons cyan-text'>redo</i></a></li>
 					<li class='divider'></li>
 					<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>
 				</ul>
@@ -143,10 +140,10 @@
 					<canvas id='parent-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='75%'><span class='strong'>6</span> feature(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>9</span> feature(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='25%'>2</span> feature(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> feature(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
 				</div>
 			</div>
 		</div>
@@ -158,10 +155,10 @@
 					<canvas id='child-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='75%'><span class='strong'>6</span> scenario(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>9</span> scenario(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='25%'>2</span> scenario(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> scenario(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
 				</div>
 			</div>
 		</div>
@@ -173,10 +170,10 @@
 					<canvas id='grandchild-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='88.372%'><span class='strong'>38</span> step(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>48</span> step(s) passed</span>
 				</div>
 				<div class='block text-small'>
-					<span class='strong tooltipped' data-position='top' data-tooltip='4.651%'>2</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='6.977%'>3</span> others
+					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
 				</div>
 			</div>
 		</div>
@@ -193,15 +190,15 @@
 				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='1'>
 					<div class='test-heading'>
 						<span class='test-name'>Users ability to find price of a Medication</span>
-						<span class='test-time'>Aug 13, 2020 12:53:43 AM</span>
+						<span class='test-time'>Aug 23, 2020 01:24:21 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='scenariooutline node' test-id='2' status='pass'>
-	<span class='duration right label'>0h 0m 16s+870ms</span>
+	<span class='duration right label'>0h 0m 19s+615ms</span>
 	<div class='desc'>
 		<b>ScenarioOutline</b>
-		<span class="desc-text">User should able to find side effect of drug</span>
+		<span class="desc-text">User should able to find pricing of a drug</span>
 	</div>
 	<ul class='steps'>
 		<li test-id='3' class='node scenario pass' status='pass'>
@@ -212,7 +209,7 @@
 			
 			<b>Scenario</b>
 			
-			<span class="bdd-step-name">User should able to find side effect of drug</span>
+			<span class="bdd-step-name">User should able to find pricing of a drug</span>
 			
 				<ul class='steps'>
 					<li test-id='4' class='node given pass' status='pass'><b>Given</b>
@@ -242,12 +239,12 @@
 				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='8'>
 					<div class='test-heading'>
 						<span class='test-name'>Drugs Registration As a user</span>
-						<span class='test-time'>Aug 13, 2020 12:54:01 AM</span>
+						<span class='test-time'>Aug 23, 2020 01:24:41 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='scenariooutline node' test-id='9' status='pass'>
-	<span class='duration right label'>0h 0m 7s+877ms</span>
+	<span class='duration right label'>0h 0m 12s+915ms</span>
 	<div class='desc'>
 		<b>ScenarioOutline</b>
 		<span class="desc-text">User should able to create account using Register form</span>
@@ -273,7 +270,7 @@
 							<div class='pre'>passed</div>
 					</li>
 					<li test-id='13' class='node and pass' status='pass'><b>And</b>
-						<span class="bdd-step-name">And Fillup the register form with "panda13456@gmail.com", "panda2345", "panda7895"</span>
+						<span class="bdd-step-name">And Fillup the register form with "panda13456@gmail.com", "panda2345", "panda7895", "25-34"</span>
 							<div class='pre'>passed</div>
 					</li>
 					<li test-id='14' class='node and pass' status='pass'><b>And</b>
@@ -296,21 +293,21 @@
 				</li>
 				
 				
-				<li class='test displayed active has-leaf fail' status='fail' bdd='true' test-id='17'>
+				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='17'>
 					<div class='test-heading'>
 						<span class='test-name'>Users ability to search side effect of drug</span>
-						<span class='test-time'>Aug 13, 2020 12:54:09 AM</span>
-						<span class='test-status right fail'>fail</span>
+						<span class='test-time'>Aug 23, 2020 01:24:55 PM</span>
+						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
-<div class='scenariooutline node' test-id='18' status='fail'>
-	<span class='duration right label'>0h 0m 28s+487ms</span>
+<div class='scenariooutline node' test-id='18' status='pass'>
+	<span class='duration right label'>0h 0m 10s+638ms</span>
 	<div class='desc'>
 		<b>ScenarioOutline</b>
 		<span class="desc-text">User should able to find side effect of drug</span>
 	</div>
 	<ul class='steps'>
-		<li test-id='19' class='node scenario fail' status='fail'>
+		<li test-id='19' class='node scenario pass' status='pass'>
 			<div class='category-list'>
 				<span class='category label white-text'>@regression</span>
 				<span class='category label white-text'>@drugs</span>
@@ -329,26 +326,13 @@
 						<span class="bdd-step-name">When user enter "hydroxychloroquine", clicks on Search icon</span>
 							<div class='pre'>passed</div>
 					</li>
-					<li test-id='22' class='node and fail' status='fail'><b>And</b>
+					<li test-id='22' class='node and pass' status='pass'><b>And</b>
 						<span class="bdd-step-name">And user scroll down and click on Side Effects link</span>
-							<div class='pre'><pre>java.lang.NullPointerException
-	at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:60)
-	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
-	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Unknown Source)
-	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
-	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(Unknown Source)
-	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
-	at java.util.stream.ReferencePipeline.collect(Unknown Source)
-	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:475)
-	at bdd.drugs.PageActions.HydroxychloroquineResultPageActions.sideEffects(HydroxychloroquineResultPageActions.java:22)
-	at bdd.stepDef.DrugsSideEffectsSteps.user_scroll_down_and_click_on_Side_Effects_link(DrugsSideEffectsSteps.java:35)
-	at ?.And user scroll down and click on Side Effects link(DrugsSideEffect.feature:8)
-</pre></div>
+							<div class='pre'>passed</div>
 					</li>
-					<li test-id='23' class='node then skip' status='skip'><b>Then</b>
+					<li test-id='23' class='node then pass' status='pass'><b>Then</b>
 						<span class="bdd-step-name">Then user should be able to see Side Effects page, and overdose symptom  successfully</span>
-							<div class='pre'>skipped</div>
+							<div class='pre'>passed</div>
 					</li>
 				</ul>
 		</li>
@@ -361,12 +345,12 @@
 				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='24'>
 					<div class='test-heading'>
 						<span class='test-name'>User can check drug interactions</span>
-						<span class='test-time'>Aug 13, 2020 12:54:38 AM</span>
+						<span class='test-time'>Aug 23, 2020 01:25:06 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='scenariooutline node' test-id='25' status='pass'>
-	<span class='duration right label'>0h 0m 14s+401ms</span>
+	<span class='duration right label'>0h 0m 12s+996ms</span>
 	<div class='desc'>
 		<b>ScenarioOutline</b>
 		<span class="desc-text">User can successfully check interactions between few drugs</span>
@@ -419,95 +403,52 @@
 				</li>
 				
 				
-				<li class='test displayed active has-leaf fail' status='fail' bdd='true' test-id='34'>
+				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='34'>
 					<div class='test-heading'>
-						<span class='test-name'>User ability to find Medication List for Hair Loss</span>
-						<span class='test-time'>Aug 13, 2020 12:54:53 AM</span>
-						<span class='test-status right fail'>fail</span>
+						<span class='test-name'>User ability to browse site section and select Medical news</span>
+						<span class='test-time'>Aug 23, 2020 01:25:20 PM</span>
+						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
-<div class='scenario node' test-id='35' status='fail'>
-	<span class='duration right label'>0h 0m 14s+832ms</span>
+<div class='scenariooutline node' test-id='35' status='pass'>
+	<span class='duration right label'>0h 0m 13s+412ms</span>
 	<div class='desc'>
-		<b>Scenario</b>
-		<span class="desc-text">User should be able to find list of medications for Hair Loss</span>
+		<b>ScenarioOutline</b>
+		<span class="desc-text">User should be able to browse medical news on the Medical news page</span>
 	</div>
 	<ul class='steps'>
-		<li test-id='36' class='node given pass' status='pass'>
+		<li test-id='36' class='node scenario pass' status='pass'>
+			<div class='category-list'>
+				<span class='category label white-text'>@regression</span>
+				<span class='category label white-text'>@drugs</span>
+			</div>
 			
-			<b>Given</b>
+			<b>Scenario</b>
 			
-			<span class="bdd-step-name">Given browse to drugs homepage</span>
-				<div class='pre'>passed</div>
+			<span class="bdd-step-name">User should be able to browse medical news on the Medical news page</span>
 			
-		</li>
-		<li test-id='37' class='node when pass' status='pass'>
-			
-			<b>When</b>
-			
-			<span class="bdd-step-name">When user clicks on Browse Conditions link</span>
-				<div class='pre'>passed</div>
-			
-		</li>
-		<li test-id='38' class='node and pass' status='pass'>
-			
-			<b>And</b>
-			
-			<span class="bdd-step-name">And click on alphabet H link at homepage</span>
-				<div class='pre'>passed</div>
-			
-		</li>
-		<li test-id='39' class='node and fail' status='fail'>
-			
-			<b>And</b>
-			
-			<span class="bdd-step-name">And click on Hair Loss link in the Condition Page</span>
-				<div class='pre'><textarea>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="/hair-loss.html" onclick="DDC_recordConditionHit(event);">...</a> is not clickable at point (91, 11). Other element would receive the click: <div id="google_ads_iframe_/7146/alpha_0__container__" style="border: 0pt none;">...</div>
-  (Session info: chrome=84.0.4147.125)
-Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
-System info: host: 'LAPTOP-L8PQU2B9', ip: '192.168.1.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.125, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\basir\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60934}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 6e678978851cec2f1f4b3f5420f12ec3
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy18.click(Unknown Source)
-	at bdd.drugs.PageActions.ConditionsHPageActions.hairLossLink(ConditionsHPageActions.java:26)
-	at bdd.stepDef.HairLossMedicationListSteps.click_on_Hair_Loss_link_in_the_Condition_Page(HairLossMedicationListSteps.java:32)
-	at ?.And click on Hair Loss link in the Condition Page(MedicationHairLoss.feature:10)
-</textarea></div>
-			
-		</li>
-		<li test-id='40' class='node and skip' status='skip'>
-			
-			<b>And</b>
-			
-			<span class="bdd-step-name">And click on Medication List tab on Medications & Treatment Options page</span>
-				<div class='pre'>skipped</div>
-			
-		</li>
-		<li test-id='41' class='node then skip' status='skip'>
-			
-			<b>Then</b>
-			
-			<span class="bdd-step-name">Then user should see successful message of Hair Loss Medications Treatment options and  list of Medications</span>
-				<div class='pre'>skipped</div>
-			
+				<ul class='steps'>
+					<li test-id='37' class='node given pass' status='pass'><b>Given</b>
+						<span class="bdd-step-name">Given User browse to drugs.com homepage</span>
+							<div class='pre'>passed</div>
+					</li>
+					<li test-id='38' class='node when pass' status='pass'><b>When</b>
+						<span class="bdd-step-name">When User clicks on medical news link under Browse by Site Section</span>
+							<div class='pre'>passed</div>
+					</li>
+					<li test-id='39' class='node and pass' status='pass'><b>And</b>
+						<span class="bdd-step-name">And User enters "covid" inside the search tab</span>
+							<div class='pre'>passed</div>
+					</li>
+					<li test-id='40' class='node and pass' status='pass'><b>And</b>
+						<span class="bdd-step-name">And user clicks on the search tab button</span>
+							<div class='pre'>passed</div>
+					</li>
+					<li test-id='41' class='node then pass' status='pass'><b>Then</b>
+						<span class="bdd-step-name">Then user will be able to see search results</span>
+							<div class='pre'>passed</div>
+					</li>
+				</ul>
 		</li>
 	</ul>
 </div>
@@ -517,23 +458,23 @@ Session ID: 6e678978851cec2f1f4b3f5420f12ec3
 				
 				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='42'>
 					<div class='test-heading'>
-						<span class='test-name'>Find latest FDA approved drug from archive</span>
-						<span class='test-time'>Aug 13, 2020 12:55:09 AM</span>
+						<span class='test-name'>User ability to find Medication List for Hair Loss</span>
+						<span class='test-time'>Aug 23, 2020 01:25:34 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='scenario node' test-id='43' status='pass'>
-	<span class='duration right label'>0h 0m 12s+41ms</span>
+	<span class='duration right label'>0h 0m 16s+567ms</span>
 	<div class='desc'>
 		<b>Scenario</b>
-		<span class="desc-text">Title of your scenario outline</span>
+		<span class="desc-text">User should be able to find list of medications for Hair Loss</span>
 	</div>
 	<ul class='steps'>
 		<li test-id='44' class='node given pass' status='pass'>
 			
 			<b>Given</b>
 			
-			<span class="bdd-step-name">Given User browses to Drugs.com homepage</span>
+			<span class="bdd-step-name">Given browse to drugs homepage</span>
 				<div class='pre'>passed</div>
 			
 		</li>
@@ -541,7 +482,7 @@ Session ID: 6e678978851cec2f1f4b3f5420f12ec3
 			
 			<b>When</b>
 			
-			<span class="bdd-step-name">When User clicks on New Drugs tab</span>
+			<span class="bdd-step-name">When user clicks on Browse Conditions link</span>
 				<div class='pre'>passed</div>
 			
 		</li>
@@ -549,7 +490,7 @@ Session ID: 6e678978851cec2f1f4b3f5420f12ec3
 			
 			<b>And</b>
 			
-			<span class="bdd-step-name">And user scrolls down to archive</span>
+			<span class="bdd-step-name">And click on alphabet H link at homepage</span>
 				<div class='pre'>passed</div>
 			
 		</li>
@@ -557,11 +498,79 @@ Session ID: 6e678978851cec2f1f4b3f5420f12ec3
 			
 			<b>And</b>
 			
+			<span class="bdd-step-name">And click on Hair Loss link in the Condition Page</span>
+				<div class='pre'>passed</div>
+			
+		</li>
+		<li test-id='48' class='node and pass' status='pass'>
+			
+			<b>And</b>
+			
+			<span class="bdd-step-name">And click on Medication List tab on Medications & Treatment Options page</span>
+				<div class='pre'>passed</div>
+			
+		</li>
+		<li test-id='49' class='node then pass' status='pass'>
+			
+			<b>Then</b>
+			
+			<span class="bdd-step-name">Then user should see successful message of Hair Loss Medications Treatment options and  list of Medications</span>
+				<div class='pre'>passed</div>
+			
+		</li>
+	</ul>
+</div>
+					</div>
+				</li>
+				
+				
+				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='50'>
+					<div class='test-heading'>
+						<span class='test-name'>Find latest FDA approved drug from archive</span>
+						<span class='test-time'>Aug 23, 2020 01:25:52 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='scenario node' test-id='51' status='pass'>
+	<span class='duration right label'>0h 0m 16s+956ms</span>
+	<div class='desc'>
+		<b>Scenario</b>
+		<span class="desc-text">Title of your scenario outline</span>
+	</div>
+	<ul class='steps'>
+		<li test-id='52' class='node given pass' status='pass'>
+			
+			<b>Given</b>
+			
+			<span class="bdd-step-name">Given User browses to Drugs.com homepage</span>
+				<div class='pre'>passed</div>
+			
+		</li>
+		<li test-id='53' class='node when pass' status='pass'>
+			
+			<b>When</b>
+			
+			<span class="bdd-step-name">When User clicks on New Drugs tab</span>
+				<div class='pre'>passed</div>
+			
+		</li>
+		<li test-id='54' class='node and pass' status='pass'>
+			
+			<b>And</b>
+			
+			<span class="bdd-step-name">And user scrolls down to archive</span>
+				<div class='pre'>passed</div>
+			
+		</li>
+		<li test-id='55' class='node and pass' status='pass'>
+			
+			<b>And</b>
+			
 			<span class="bdd-step-name">And Clicks on latest year and month</span>
 				<div class='pre'>passed</div>
 			
 		</li>
-		<li test-id='48' class='node then pass' status='pass'>
+		<li test-id='56' class='node then pass' status='pass'>
 			
 			<b>Then</b>
 			
@@ -575,21 +584,21 @@ Session ID: 6e678978851cec2f1f4b3f5420f12ec3
 				</li>
 				
 				
-				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='49'>
+				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='57'>
 					<div class='test-heading'>
 						<span class='test-name'>Identify medication using Pill Identifier</span>
-						<span class='test-time'>Aug 13, 2020 12:55:21 AM</span>
+						<span class='test-time'>Aug 23, 2020 01:26:09 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
-<div class='scenariooutline node' test-id='50' status='pass'>
-	<span class='duration right label'>0h 0m 12s+876ms</span>
+<div class='scenariooutline node' test-id='58' status='pass'>
+	<span class='duration right label'>0h 0m 15s+132ms</span>
 	<div class='desc'>
 		<b>ScenarioOutline</b>
 		<span class="desc-text">User can successfully identify medication using Pill Identifier</span>
 	</div>
 	<ul class='steps'>
-		<li test-id='51' class='node scenario pass' status='pass'>
+		<li test-id='59' class='node scenario pass' status='pass'>
 			<div class='category-list'>
 				<span class='category label white-text'>@regression</span>
 				<span class='category label white-text'>@drugs</span>
@@ -600,27 +609,27 @@ Session ID: 6e678978851cec2f1f4b3f5420f12ec3
 			<span class="bdd-step-name">User can successfully identify medication using Pill Identifier</span>
 			
 				<ul class='steps'>
-					<li test-id='52' class='node given pass' status='pass'><b>Given</b>
+					<li test-id='60' class='node given pass' status='pass'><b>Given</b>
 						<span class="bdd-step-name">Given User browses to Drugs.com homepage</span>
 							<div class='pre'>passed</div>
 					</li>
-					<li test-id='53' class='node when pass' status='pass'><b>When</b>
+					<li test-id='61' class='node when pass' status='pass'><b>When</b>
 						<span class="bdd-step-name">When User clicks on Pill Identifier</span>
 							<div class='pre'>passed</div>
 					</li>
-					<li test-id='54' class='node and pass' status='pass'><b>And</b>
+					<li test-id='62' class='node and pass' status='pass'><b>And</b>
 						<span class="bdd-step-name">And User Clicks on Accept to accept terms</span>
 							<div class='pre'>passed</div>
 					</li>
-					<li test-id='55' class='node and pass' status='pass'><b>And</b>
+					<li test-id='63' class='node and pass' status='pass'><b>And</b>
 						<span class="bdd-step-name">And User Enters "I 13" , "White", "Capsule-shape"</span>
 							<div class='pre'>passed</div>
 					</li>
-					<li test-id='56' class='node and pass' status='pass'><b>And</b>
+					<li test-id='64' class='node and pass' status='pass'><b>And</b>
 						<span class="bdd-step-name">And User clicks on Search</span>
 							<div class='pre'>passed</div>
 					</li>
-					<li test-id='57' class='node then pass' status='pass'><b>Then</b>
+					<li test-id='65' class='node then pass' status='pass'><b>Then</b>
 						<span class="bdd-step-name">Then User should be able to see the result that match the criteria</span>
 							<div class='pre'>passed</div>
 					</li>
@@ -632,21 +641,21 @@ Session ID: 6e678978851cec2f1f4b3f5420f12ec3
 				</li>
 				
 				
-				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='58'>
+				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='66'>
 					<div class='test-heading'>
 						<span class='test-name'>Sign in with invalid information</span>
-						<span class='test-time'>Aug 13, 2020 12:55:35 AM</span>
+						<span class='test-time'>Aug 23, 2020 01:26:25 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
-<div class='scenariooutline node' test-id='59' status='pass'>
-	<span class='duration right label'>0h 0m 8s+952ms</span>
+<div class='scenariooutline node' test-id='67' status='pass'>
+	<span class='duration right label'>0h 0m 9s+564ms</span>
 	<div class='desc'>
 		<b>ScenarioOutline</b>
 		<span class="desc-text">User can sign in with invalid information</span>
 	</div>
 	<ul class='steps'>
-		<li test-id='60' class='node scenario pass' status='pass'>
+		<li test-id='68' class='node scenario pass' status='pass'>
 			<div class='category-list'>
 				<span class='category label white-text'>@regression</span>
 				<span class='category label white-text'>@Drugs</span>
@@ -657,23 +666,23 @@ Session ID: 6e678978851cec2f1f4b3f5420f12ec3
 			<span class="bdd-step-name">User can sign in with invalid information</span>
 			
 				<ul class='steps'>
-					<li test-id='61' class='node given pass' status='pass'><b>Given</b>
+					<li test-id='69' class='node given pass' status='pass'><b>Given</b>
 						<span class="bdd-step-name">Given User is on Drugs.com Home Page</span>
 							<div class='pre'>passed</div>
 					</li>
-					<li test-id='62' class='node when pass' status='pass'><b>When</b>
+					<li test-id='70' class='node when pass' status='pass'><b>When</b>
 						<span class="bdd-step-name">When User navigates to Sign In Page</span>
 							<div class='pre'>passed</div>
 					</li>
-					<li test-id='63' class='node and pass' status='pass'><b>And</b>
+					<li test-id='71' class='node and pass' status='pass'><b>And</b>
 						<span class="bdd-step-name">And User enters incorrect "abc123as" with "Woohoo"</span>
 							<div class='pre'>passed</div>
 					</li>
-					<li test-id='64' class='node and pass' status='pass'><b>And</b>
+					<li test-id='72' class='node and pass' status='pass'><b>And</b>
 						<span class="bdd-step-name">And User clicks on sign in button</span>
 							<div class='pre'>passed</div>
 					</li>
-					<li test-id='65' class='node then pass' status='pass'><b>Then</b>
+					<li test-id='73' class='node then pass' status='pass'><b>Then</b>
 						<span class="bdd-step-name">Then User can see log in failed message</span>
 							<div class='pre'>passed</div>
 					</li>
@@ -737,14 +746,13 @@ Session ID: 6e678978851cec2f1f4b3f5420f12ec3
 					<div class='category-heading'>
 						<span class='category-name'>@drugs</span>
 						<span class='category-status right'>
-							<span class='label pass'>9</span>
-							<span class='label fail'>3</span>
+							<span class='label pass'>14</span>
 						</span>
 					</div>
 					<div class='category-content hide'>
 						<div class='category-status-counts'>
-							<span class='label green accent-4 white-text'>Passed: 9</span>
-							<span class='label red lighten-1 white-text'>Failed: 3</span>
+							<span class='label green accent-4 white-text'>Passed: 14</span>
+							
 							
 						</div>
 					
@@ -759,63 +767,73 @@ Session ID: 6e678978851cec2f1f4b3f5420f12ec3
 								</thead>
 								<tbody>
 									<tr>
-										<td>Aug 13, 2020 12:53:43 AM</td>
+										<td>Aug 23, 2020 01:24:21 PM</td>
 										<td class='linked' test-id='1'>Users ability to find price of a Medication</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Aug 13, 2020 12:53:43 AM</td>
-										<td class='linked' test-id='3'>Users ability to find price of a Medication.User should able to find side effect of drug.User should able to find side effect of drug</td>
+										<td>Aug 23, 2020 01:24:21 PM</td>
+										<td class='linked' test-id='3'>Users ability to find price of a Medication.User should able to find pricing of a drug.User should able to find pricing of a drug</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Aug 13, 2020 12:54:01 AM</td>
+										<td>Aug 23, 2020 01:24:41 PM</td>
 										<td class='linked' test-id='8'>Drugs Registration As a user</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Aug 13, 2020 12:54:01 AM</td>
+										<td>Aug 23, 2020 01:24:41 PM</td>
 										<td class='linked' test-id='10'>Drugs Registration As a user.User should able to create account using Register form.User should able to create account using Register form</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Aug 13, 2020 12:54:09 AM</td>
+										<td>Aug 23, 2020 01:24:55 PM</td>
 										<td class='linked' test-id='17'>Users ability to search side effect of drug</td>
-										<td><span class='test-status fail'>fail</span></td>
+										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Aug 13, 2020 12:54:09 AM</td>
+										<td>Aug 23, 2020 01:24:55 PM</td>
 										<td class='linked' test-id='19'>Users ability to search side effect of drug.User should able to find side effect of drug.User should able to find side effect of drug</td>
-										<td><span class='test-status fail'>fail</span></td>
+										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Aug 13, 2020 12:54:38 AM</td>
+										<td>Aug 23, 2020 01:25:06 PM</td>
 										<td class='linked' test-id='24'>User can check drug interactions</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Aug 13, 2020 12:54:38 AM</td>
+										<td>Aug 23, 2020 01:25:06 PM</td>
 										<td class='linked' test-id='26'>User can check drug interactions.User can successfully check interactions between few drugs.User can successfully check interactions between few drugs</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Aug 13, 2020 12:54:53 AM</td>
-										<td class='linked' test-id='34'>User ability to find Medication List for Hair Loss</td>
-										<td><span class='test-status fail'>fail</span></td>
-									</tr>
-									<tr>
-										<td>Aug 13, 2020 12:55:09 AM</td>
-										<td class='linked' test-id='42'>Find latest FDA approved drug from archive</td>
+										<td>Aug 23, 2020 01:25:20 PM</td>
+										<td class='linked' test-id='34'>User ability to browse site section and select Medical news</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Aug 13, 2020 12:55:21 AM</td>
-										<td class='linked' test-id='49'>Identify medication using Pill Identifier</td>
+										<td>Aug 23, 2020 01:25:20 PM</td>
+										<td class='linked' test-id='36'>User ability to browse site section and select Medical news.User should be able to browse medical news on the Medical news page.User should be able to browse medical news on the Medical news page</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Aug 13, 2020 12:55:21 AM</td>
-										<td class='linked' test-id='51'>Identify medication using Pill Identifier.User can successfully identify medication using Pill Identifier.User can successfully identify medication using Pill Identifier</td>
+										<td>Aug 23, 2020 01:25:34 PM</td>
+										<td class='linked' test-id='42'>User ability to find Medication List for Hair Loss</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Aug 23, 2020 01:25:52 PM</td>
+										<td class='linked' test-id='50'>Find latest FDA approved drug from archive</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Aug 23, 2020 01:26:09 PM</td>
+										<td class='linked' test-id='57'>Identify medication using Pill Identifier</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Aug 23, 2020 01:26:09 PM</td>
+										<td class='linked' test-id='59'>Identify medication using Pill Identifier.User can successfully identify medication using Pill Identifier.User can successfully identify medication using Pill Identifier</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 								</tbody>
@@ -827,14 +845,13 @@ Session ID: 6e678978851cec2f1f4b3f5420f12ec3
 					<div class='category-heading'>
 						<span class='category-name'>@regression</span>
 						<span class='category-status right'>
-							<span class='label pass'>11</span>
-							<span class='label fail'>3</span>
+							<span class='label pass'>16</span>
 						</span>
 					</div>
 					<div class='category-content hide'>
 						<div class='category-status-counts'>
-							<span class='label green accent-4 white-text'>Passed: 11</span>
-							<span class='label red lighten-1 white-text'>Failed: 3</span>
+							<span class='label green accent-4 white-text'>Passed: 16</span>
+							
 							
 						</div>
 					
@@ -849,73 +866,83 @@ Session ID: 6e678978851cec2f1f4b3f5420f12ec3
 								</thead>
 								<tbody>
 									<tr>
-										<td>Aug 13, 2020 12:53:43 AM</td>
+										<td>Aug 23, 2020 01:24:21 PM</td>
 										<td class='linked' test-id='1'>Users ability to find price of a Medication</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Aug 13, 2020 12:53:43 AM</td>
-										<td class='linked' test-id='3'>Users ability to find price of a Medication.User should able to find side effect of drug.User should able to find side effect of drug</td>
+										<td>Aug 23, 2020 01:24:21 PM</td>
+										<td class='linked' test-id='3'>Users ability to find price of a Medication.User should able to find pricing of a drug.User should able to find pricing of a drug</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Aug 13, 2020 12:54:01 AM</td>
+										<td>Aug 23, 2020 01:24:41 PM</td>
 										<td class='linked' test-id='8'>Drugs Registration As a user</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Aug 13, 2020 12:54:01 AM</td>
+										<td>Aug 23, 2020 01:24:41 PM</td>
 										<td class='linked' test-id='10'>Drugs Registration As a user.User should able to create account using Register form.User should able to create account using Register form</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Aug 13, 2020 12:54:09 AM</td>
+										<td>Aug 23, 2020 01:24:55 PM</td>
 										<td class='linked' test-id='17'>Users ability to search side effect of drug</td>
-										<td><span class='test-status fail'>fail</span></td>
+										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Aug 13, 2020 12:54:09 AM</td>
+										<td>Aug 23, 2020 01:24:55 PM</td>
 										<td class='linked' test-id='19'>Users ability to search side effect of drug.User should able to find side effect of drug.User should able to find side effect of drug</td>
-										<td><span class='test-status fail'>fail</span></td>
+										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Aug 13, 2020 12:54:38 AM</td>
+										<td>Aug 23, 2020 01:25:06 PM</td>
 										<td class='linked' test-id='24'>User can check drug interactions</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Aug 13, 2020 12:54:38 AM</td>
+										<td>Aug 23, 2020 01:25:06 PM</td>
 										<td class='linked' test-id='26'>User can check drug interactions.User can successfully check interactions between few drugs.User can successfully check interactions between few drugs</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Aug 13, 2020 12:54:53 AM</td>
-										<td class='linked' test-id='34'>User ability to find Medication List for Hair Loss</td>
-										<td><span class='test-status fail'>fail</span></td>
-									</tr>
-									<tr>
-										<td>Aug 13, 2020 12:55:09 AM</td>
-										<td class='linked' test-id='42'>Find latest FDA approved drug from archive</td>
+										<td>Aug 23, 2020 01:25:20 PM</td>
+										<td class='linked' test-id='34'>User ability to browse site section and select Medical news</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Aug 13, 2020 12:55:21 AM</td>
-										<td class='linked' test-id='49'>Identify medication using Pill Identifier</td>
+										<td>Aug 23, 2020 01:25:20 PM</td>
+										<td class='linked' test-id='36'>User ability to browse site section and select Medical news.User should be able to browse medical news on the Medical news page.User should be able to browse medical news on the Medical news page</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Aug 13, 2020 12:55:21 AM</td>
-										<td class='linked' test-id='51'>Identify medication using Pill Identifier.User can successfully identify medication using Pill Identifier.User can successfully identify medication using Pill Identifier</td>
+										<td>Aug 23, 2020 01:25:34 PM</td>
+										<td class='linked' test-id='42'>User ability to find Medication List for Hair Loss</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Aug 13, 2020 12:55:35 AM</td>
-										<td class='linked' test-id='58'>Sign in with invalid information</td>
+										<td>Aug 23, 2020 01:25:52 PM</td>
+										<td class='linked' test-id='50'>Find latest FDA approved drug from archive</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Aug 13, 2020 12:55:35 AM</td>
-										<td class='linked' test-id='60'>Sign in with invalid information.User can sign in with invalid information.User can sign in with invalid information</td>
+										<td>Aug 23, 2020 01:26:09 PM</td>
+										<td class='linked' test-id='57'>Identify medication using Pill Identifier</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Aug 23, 2020 01:26:09 PM</td>
+										<td class='linked' test-id='59'>Identify medication using Pill Identifier.User can successfully identify medication using Pill Identifier.User can successfully identify medication using Pill Identifier</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Aug 23, 2020 01:26:25 PM</td>
+										<td class='linked' test-id='66'>Sign in with invalid information</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Aug 23, 2020 01:26:25 PM</td>
+										<td class='linked' test-id='68'>Sign in with invalid information.User can sign in with invalid information.User can sign in with invalid information</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 								</tbody>
@@ -948,13 +975,13 @@ Session ID: 6e678978851cec2f1f4b3f5420f12ec3
 								</thead>
 								<tbody>
 									<tr>
-										<td>Aug 13, 2020 12:55:35 AM</td>
-										<td class='linked' test-id='58'>Sign in with invalid information</td>
+										<td>Aug 23, 2020 01:26:25 PM</td>
+										<td class='linked' test-id='66'>Sign in with invalid information</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>Aug 13, 2020 12:55:35 AM</td>
-										<td class='linked' test-id='60'>Sign in with invalid information.User can sign in with invalid information.User can sign in with invalid information</td>
+										<td>Aug 23, 2020 01:26:25 PM</td>
+										<td class='linked' test-id='68'>Sign in with invalid information.User can sign in with invalid information.User can sign in with invalid information</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 								</tbody>
@@ -974,134 +1001,6 @@ Session ID: 6e678978851cec2f1f4b3f5420f12ec3
 	</div>
 </div>
 <!-- category view -->
-<div id='exception-view' class='view hide'>
-
-    <section id='controls'>
-        <div class='controls grey lighten-4'>
-            <!-- search -->
-            <div class='chip transparent' alt='Search Tests' title='Search Tests'>
-                <a href="#" class='search-div'>
-                    <i class='material-icons'>search</i> Search
-                </a>
-
-                <div class='input-field left hide'>
-                    <input id='search-tests' type='text' class='validate browser-default' placeholder='Search Tests...'>
-                </div>
-
-            </div>
-            <!-- search -->
-        </div>
-    </section>
-
-    <div class='subview-left left'>
-
-        <div class='view-summary'>
-            <h5>Exceptions</h3>
-                <ul id='exception-collection' class='exception-collection'>
-
-                        <li class='exception displayed active'>
-                            <div class='exception-heading'>
-                                <span class='exception-name'>java.lang.NullPointerException</span>
-                                <span class='exception-count right'><span class='label red lighten-1 white-text'>1</span></span>
-                            </div>
-                            <div class='exception-content hide'>
-                                <div class='exception-tests'>
-                                    <table class='bordered table-results'>
-                                        <thead>
-                                        <tr>
-                                            <th>Timestamp</th>
-                                            <th>TestName</th>
-                                            <th>Status</th>
-                                        </tr>
-                                        </thead>
-                                        <tbody>
-                                                    <tr>
-                                                        <td>Aug 13, 2020 12:54:19 AM</td>
-                                                        <td class='linked' test-id='22'>Users ability to search side effect of drug.User should able to find side effect of drug.User should able to find side effect of drug.And user scroll down and click on Side Effects link</td>
-                                                        <td><pre><pre>java.lang.NullPointerException
-	at org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:60)
-	at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
-	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Unknown Source)
-	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
-	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
-	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(Unknown Source)
-	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
-	at java.util.stream.ReferencePipeline.collect(Unknown Source)
-	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:475)
-	at bdd.drugs.PageActions.HydroxychloroquineResultPageActions.sideEffects(HydroxychloroquineResultPageActions.java:22)
-	at bdd.stepDef.DrugsSideEffectsSteps.user_scroll_down_and_click_on_Side_Effects_link(DrugsSideEffectsSteps.java:35)
-	at ?.And user scroll down and click on Side Effects link(DrugsSideEffect.feature:8)
-</pre></pre></td>
-                                                    </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                        </li>
-                        <li class='exception displayed active'>
-                            <div class='exception-heading'>
-                                <span class='exception-name'>org.openqa.selenium.ElementClickInterceptedException</span>
-                                <span class='exception-count right'><span class='label red lighten-1 white-text'>1</span></span>
-                            </div>
-                            <div class='exception-content hide'>
-                                <div class='exception-tests'>
-                                    <table class='bordered table-results'>
-                                        <thead>
-                                        <tr>
-                                            <th>Timestamp</th>
-                                            <th>TestName</th>
-                                            <th>Status</th>
-                                        </tr>
-                                        </thead>
-                                        <tbody>
-                                                    <tr>
-                                                        <td>Aug 13, 2020 12:55:03 AM</td>
-                                                        <td class='linked' test-id='39'>User ability to find Medication List for Hair Loss.User should be able to find list of medications for Hair Loss.And click on Hair Loss link in the Condition Page</td>
-                                                        <td><pre><textarea>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="/hair-loss.html" onclick="DDC_recordConditionHit(event);">...</a> is not clickable at point (91, 11). Other element would receive the click: <div id="google_ads_iframe_/7146/alpha_0__container__" style="border: 0pt none;">...</div>
-  (Session info: chrome=84.0.4147.125)
-Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
-System info: host: 'LAPTOP-L8PQU2B9', ip: '192.168.1.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.125, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\basir\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60934}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 6e678978851cec2f1f4b3f5420f12ec3
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-	at com.sun.proxy.$Proxy18.click(Unknown Source)
-	at bdd.drugs.PageActions.ConditionsHPageActions.hairLossLink(ConditionsHPageActions.java:26)
-	at bdd.stepDef.HairLossMedicationListSteps.click_on_Hair_Loss_link_in_the_Condition_Page(HairLossMedicationListSteps.java:32)
-	at ?.And click on Hair Loss link in the Condition Page(MedicationHairLoss.feature:10)
-</textarea></pre></td>
-                                                    </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                        </li>
-                </ul>
-        </div>
-    </div>
-
-    <div class='subview-right left'>
-        <div class='view-summary'>
-            <h5 class='exception-name'></h5>
-        </div>
-    </div>
-</div>
 <!-- exception view -->
 <div id='dashboard-view' class='view hide'>
 	<div class='card-panel transparent np-v'>
@@ -1111,37 +1010,37 @@ Session ID: 6e678978851cec2f1f4b3f5420f12ec3
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Features
-					<div class='panel-lead'>8</div>
+					<div class='panel-lead'>9</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Scenarios
-					<div class='panel-lead'>8</div>
+					<div class='panel-lead'>9</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Steps
-					<div class='panel-lead'>43</div>
+					<div class='panel-lead'>48</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Aug 13, 2020 12:53:43 AM</div>
+					<div class='panel-lead'>Aug 23, 2020 01:24:20 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Aug 13, 2020 12:55:44 AM</div>
+			 		<div class='panel-lead'>Aug 23, 2020 01:26:36 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>0h 2m 1s+305ms</div>
+					<div class='panel-lead'>0h 2m 15s+701ms</div>
 				</div>
 			</div>
 			<div class='col s6'>
@@ -1158,20 +1057,20 @@ Session ID: 6e678978851cec2f1f4b3f5420f12ec3
 						</tr>
 						<tr>
 							<td>@drugs</td>
-							<td>9</td>
-							<td>3</td>
+							<td>14</td>
+							<td>0</td>
 							<td>0</td>
 							<td>
-									75%
+									100%
 							</td>
 						</tr>
 						<tr>
 							<td>@regression</td>
-							<td>11</td>
-							<td>3</td>
+							<td>16</td>
+							<td>0</td>
 							<td>0</td>
 							<td>
-									78.571%
+									100%
 							</td>
 						</tr>
 						<tr>
@@ -1196,31 +1095,31 @@ Session ID: 6e678978851cec2f1f4b3f5420f12ec3
 
 		<script>
 			var statusGroup = {
-				passParent: 6,
-				failParent: 2,
+				passParent: 9,
+				failParent: 0,
 				fatalParent: 0,
 				errorParent: 0,
 				warningParent: 0,
 				skipParent: 0,
-				exceptionsParent: 2,
+				exceptionsParent: 0,
 				
-				passChild: 6,
-				failChild: 2,
+				passChild: 9,
+				failChild: 0,
 				fatalChild: 0,
 				errorChild: 0,
 				warningChild: 0,
 				skipChild: 0,
 				infoChild: 0,
-				exceptionsChild: 2,
+				exceptionsChild: 0,
 				
-				passGrandChild: 38,
-				failGrandChild: 2,
+				passGrandChild: 48,
+				failGrandChild: 0,
 				fatalGrandChild: 0,
 				errorGrandChild: 0,
 				warningGrandChild: 0,
-				skipGrandChild: 3,
+				skipGrandChild: 0,
 				infoGrandChild: 0,
-				exceptionsGrandChild: 5,
+				exceptionsGrandChild: 0,
 			};
 		</script>
 		

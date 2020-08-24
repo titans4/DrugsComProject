@@ -6,6 +6,6 @@ import org.openqa.selenium.support.FindBy;
 
 public class HydroxychloroquineResultPageLocators {
 
-	@FindBy(xpath="//ul[@class='search-result-secondary ddc-list-column-2']//a[contains(text(),'Side Effects')]")
+	@FindBy(xpath="//ul[@class='ddc-list-column-2']//a[contains(text(),'Side Effects')]")
     public WebElement lnkSideEffect;
 }

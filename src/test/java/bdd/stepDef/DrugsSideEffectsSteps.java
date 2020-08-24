@@ -22,18 +22,15 @@ public class DrugsSideEffectsSteps {
 	}
 
 	@When("^user enter \"([^\"]*)\", clicks on Search icon$")
-	public void user_enter_clicks_on_Search_icon(String drug_name) throws Throwable {
+	public void user_enter_clicks_on_Search_icon(String drugName) throws Throwable {
 	    
-		DrugsHomePageActionsObj.searchBox(drug_name);
-		Thread.sleep(3000);
-		
+		DrugsHomePageActionsObj.searchBox(drugName);
 	}
 
 	@When("^user scroll down and click on Side Effects link$")
 	public void user_scroll_down_and_click_on_Side_Effects_link() throws Throwable {
 	    
 		HydroxychloroquineResultPageActionsObj.sideEffects();
-		Thread.sleep(3000);
 	}
 
 	@Then("^user should be able to see Side Effects page, and overdose symptom  successfully$")

@@ -26,11 +26,11 @@ public class InteractionReportActions {
 		String report = InteractionReportLocatorObj.txtDrugReport.getText(); 
 		Assert.assertEquals(report, "Drug Interaction Report");
 		
-		Thread.sleep(2000);
+		Thread.sleep(1000);
 		
 		JavascriptExecutor scroll = (JavascriptExecutor) SetupDrivers.driver;
 		scroll.executeScript("window.scrollBy(0,300)");
-		
+		Thread.sleep(1000);
 		File shotReport = ((TakesScreenshot)SetupDrivers.driver).getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(shotReport, new File("C:\\workspace\\DrugComProject\\config\\Screenshots\\drugreport.png"));
 	}

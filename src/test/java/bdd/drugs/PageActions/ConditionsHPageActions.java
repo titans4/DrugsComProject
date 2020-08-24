@@ -21,8 +21,11 @@ public class ConditionsHPageActions {
 	public void hairLossLink() throws InterruptedException {
 		
 		JavascriptExecutor js=(JavascriptExecutor)(SetupDrivers.driver);
-		js.executeScript("arguments[0].scrollIntoView();", ConditionsHPageLocatorsObj.lnkHairLoss);
-		Thread.sleep(4000);
+		js.executeScript("window.scrollBy(0,400)");
+		//js.executeScript("arguments[0].scrollIntoView();", ConditionsHPageLocatorsObj.lnkHairLoss);
+		
+		
+		Thread.sleep(2000);
 		ConditionsHPageLocatorsObj.lnkHairLoss.click();	
 		
 	}

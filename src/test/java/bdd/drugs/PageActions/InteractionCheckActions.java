@@ -25,24 +25,21 @@ public class InteractionCheckActions {
 		
 	}
 	public void clickAdd () throws Exception{
-		WebElement add = SetupDrivers.driver.findElement(By.xpath("//form[@id='drug-interactions-search']//input[@class='ddc-btn']"));
-		add.click();
+		InteractionCheckLocatorsObj.btnAdd.click();
 		Thread.sleep(1000);
 	}
 	public void enterDrugTwo (String drug2) throws Exception{
 		InteractionCheckLocatorsObj.txtDrugNameTwo.clear();
 		InteractionCheckLocatorsObj.txtDrugNameTwo.sendKeys(drug2);
-		WebElement add1 = SetupDrivers.driver.findElement(By.xpath("//form[@id='drug-interactions-search']//input[@class='ddc-btn']"));
-		add1.click();
-		Thread.sleep(1000);
+		InteractionCheckLocatorsObj.btnAddTwo.click();
+		
 		
 		JavascriptExecutor scroll = (JavascriptExecutor) SetupDrivers.driver;
 		scroll.executeScript("window.scrollBy(0,300)");
-		
+		Thread.sleep(2000);
 	}
-	public void checkInteraction () throws Exception{
-		WebElement check = SetupDrivers.driver.findElement(By.xpath("//a[contains(text(),'Check for Interactions')]"));
-		check.click();
-		Thread.sleep(1000);
+	public void checkInteraction () {
+		InteractionCheckLocatorsObj.btnCheck.click();
+		
 	}
 }

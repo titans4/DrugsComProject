@@ -26,8 +26,9 @@ public class PillinfoPageActions {
 		PillinfoPageLocatorsObj.txtImprint.clear();
 		PillinfoPageLocatorsObj.txtImprint.sendKeys(Imprint);
 
-		WebElement med = SetupDrivers.driver.findElement(By.xpath("//div[@id='ls-wrap']//a[1]"));
-		med.click();
+		//WebElement med = SetupDrivers.driver.findElement(By.xpath("//div[@id='ls-wrap']//a[1]"));
+		//med.click();
+		PillinfoPageLocatorsObj.enterImprint.click();
 
 		Select drop = new Select(PillinfoPageLocatorsObj.txtColor); 
 		drop.selectByVisibleText(Color); 

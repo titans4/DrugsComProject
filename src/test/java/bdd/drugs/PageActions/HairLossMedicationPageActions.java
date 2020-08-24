@@ -17,8 +17,8 @@ public class HairLossMedicationPageActions {
 	
 	//Clicking on the Medication List Tab
 	public void medicationListTab() throws InterruptedException {
-		
+		Thread.sleep(2000);
 		HairLossMedicationPageLoctorsObj.tabMedicationList.click();
-		Thread.sleep(3000);
+		
 	}
 }

@@ -16,10 +16,17 @@ public class HydroxychloroquineResultPageActions {
 		PageFactory.initElements(SetupDrivers.driver, HydroxychloroquineResultPageLocatorsObj);
 	}
 	
-	//Scroll down in the page until elemnet is visisble and then click on the element
-	public void sideEffects() {
+	//Scroll down in the page until element is visible and then click on the element
+	public void sideEffects() throws Exception {
+		
 		JavascriptExecutor js = (JavascriptExecutor)(SetupDrivers.driver);
-		js.executeScript("arguments[0].scrollIntoView();", HydroxychloroquineResultPageLocatorsObj.lnkSideEffect);
-		HydroxychloroquineResultPageLocatorsObj.lnkSideEffect.click();
+		js.executeScript("window.scrollBy(0,300)");
+		
+		Thread.sleep(1000);
+		
+		HydroxychloroquineResultPageLocatorsObj.lnkSideEffect.click(); 
+		
+		//js.executeScript("arguments[0].scrollIntoView();", HydroxychloroquineResultPageLocatorsObj.lnkSideEffect);
+		//HydroxychloroquineResultPageLocatorsObj.lnkSideEffect.click();
 	}
 }

@@ -21,6 +21,9 @@ public class DrugsRegisterPageLocators {
 	@FindBy(xpath = "//input[@id='user-password']")
 	public WebElement txtPassword;
 	
+	@FindBy(xpath = "//select[@id='user-age']")
+	public WebElement txtAge;
+	
 	//Checkbox
 	@FindBy(xpath = "//input[@id='terms']")
 	public WebElement chkBox;

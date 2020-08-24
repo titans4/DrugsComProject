@@ -48,7 +48,7 @@ public class DrugsHomePageActions {
 		Thread.sleep(4000);*/
 
 		DrugsHomePageLocatorsObj.tabBrowseConditions.click();
-		Thread.sleep(3000);
+		Thread.sleep(2000);
 	}
 
 	//click on Alphabet letter H
@@ -60,14 +60,16 @@ public class DrugsHomePageActions {
 	//Scroll down the page and click on Pricing & Coupon Guide link
 	public void pricingCoupon() throws InterruptedException {
 
+		Thread.sleep(2000);
 		JavascriptExecutor js = (JavascriptExecutor)(SetupDrivers.driver);
 		js.executeScript("arguments[0].scrollIntoView();", DrugsHomePageLocatorsObj.lnkPriceCoupon);
-		Thread.sleep(4000);
+		Thread.sleep(2000);
 
 		DrugsHomePageLocatorsObj.lnkPriceCoupon.click();
 	}
 
-	public void clickPillIdentifier (){
+	public void clickPillIdentifier () throws Exception{
+		Thread.sleep(1000);
 		DrugsHomePageLocatorsObj.lnkPillidentifier.click();
 	}
 
@@ -79,14 +81,17 @@ public class DrugsHomePageActions {
 		DrugsHomePageLocatorsObj.lnkNewDrugs.click();
 
 	}
-<<<<<<< HEAD
 
-	public void SignIn () {
+
+	public void SignIn () throws Exception {
+		Thread.sleep(1000);
 		DrugsHomePageLocatorsObj.btnSignIn.click();
-=======
-	public void medicalNews (){
+	}
+
+	public void medicalNews () throws Exception{
+		Thread.sleep(1000);
 		DrugsHomePageLocatorsObj.lnkMedicalNews.click();
->>>>>>> 45ac386b0c817b21c5192e1d883f58fe614ca154
+
 	}
 
 }

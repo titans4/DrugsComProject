@@ -13,15 +13,15 @@ public class SignInPageActions {
 		PageFactory.initElements(SetupDrivers.driver, SignInPageLocatorsObj);
 	}
 	
-	public void enterSignInfo (String username, String password){
+	public void enterSignInfo (String username, String password) throws Exception{
 		SignInPageLocatorsObj.txtUserName.clear();
 		SignInPageLocatorsObj.txtUserName.sendKeys(username);
 		SignInPageLocatorsObj.txtPassword.clear();
 		SignInPageLocatorsObj.txtPassword.sendKeys(password);
-		
+		Thread.sleep(1000);
 	}
 	
-	public void clickSignIn (){
+	public void clickSignIn () {
 		SignInPageLocatorsObj.btnSignIn.click();
 	}
 }
